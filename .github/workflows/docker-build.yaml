@@ -29,7 +29,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v3
         with:
-          image: zyertdox/docker-ci-automation
+          images: zyertdox/docker-ci-automation
           flavor: |
             latest=false
           tags: |
